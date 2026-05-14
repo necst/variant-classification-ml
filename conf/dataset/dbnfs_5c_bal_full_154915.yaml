@@ -1,0 +1,5 @@
+name: dbnfs_5c_bal_full_154915
+path: datasets_new/dbnfs_5c_bal_full_154915.csv
+description: "Balanced 5-class dataset (full set) - Pathogenic, Uncertain significance, Benign, Likely pathogenic, and Likely benign"
+low_memory: false
+target_column: ClinicalSignificance

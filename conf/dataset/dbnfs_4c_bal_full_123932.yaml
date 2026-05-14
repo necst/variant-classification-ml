@@ -1,0 +1,5 @@
+name: dbnfs_4c_bal_full_123932
+path: datasets_new/dbnfs_4c_bal_full_123932.csv
+description: "Balanced 4-class dataset (full set) - Pathogenic, Likely pathogenic, Benign, and Likely benign"
+low_memory: false
+target_column: ClinicalSignificance

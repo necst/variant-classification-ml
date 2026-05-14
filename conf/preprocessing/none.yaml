@@ -1,0 +1,41 @@
+name: no_preprocessing
+
+drop_feature_selectors:
+  #regex_pattern: '^(Unnamed: 0|.*_score$|.*_pred_lab$|CADD_(raw|phred)$|Eigen-(raw|phred|PC-phred)|GERP\+\+_(NR|RS)$|phyloP(100way_vertebrate$|470way|17way)|phastCons|bStatistic|Reliability_index|M-CAP|MetaLR|MetaRNN|MVP|MPC|BayesDel|VARITY_(R|ER|ER_LOO)$|SIFT_converted_rankscore|Polyphen2_HDIV|Start|Stop|RS#|NumberSubmitters|SubmitterCategories|PositionVCF|StarStatus|plddt|rsa|.*_lab$)(?!ClinicalSignificance$)'
+  regex_pattern: '^(Unnamed: 0|hg19_pos|hg18_pos|.*_score$|.*_pred_lab$|CADD_(raw|phred)$|Eigen-(raw|phred|PC-phred)|GERP\+\+_(NR|RS)$|phyloP(100way_vertebrate$|470way|17way)|phastCons|bStatistic|Reliability_index|M-CAP|MetaLR|MetaRNN|MVP|MPC|BayesDel|VARITY_(R|ER|ER_LOO)$|SIFT_converted_rankscore|Polyphen2_HDIV|Start|Stop|RS#|NumberSubmitters|SubmitterCategories|PositionVCF|StarStatus|plddt|rsa|(?!ClinicalSignificance$|#chr_lab$|ref_lab$|alt_lab$|aaref_lab$|aaalt_lab$).*_lab$)'
+  slice_by_name: []
+  explicit_list: []
+select_numeric_features: true
+fill_na_strategy:
+scaler: null
+steps:
+
+# https://github.com/NIH-CARD/MoVUS/blob/main/movus.ipynb
+# Feature dropped based on result of MoVUS
+
+# Features dropped by regex:
+# - Unnamed: 0 (index column)
+# - hg19_pos, hg18_pos
+# - All *_score features (keeping only rankscores)
+# - All *_pred_lab features (prediction labels)
+# - CADD_raw, CADD_phred (keeping CADD_raw_rankscore)
+# - Eigen-raw_coding, Eigen-phred_coding, Eigen-PC-phred_coding (keeping Eigen-PC-raw_coding_rankscore)
+# - GERP++_NR, GERP++_RS (keeping GERP++_RS_rankscore)
+# - phyloP100way_vertebrate (raw), phyloP470way_*, phyloP17way_* (keeping phyloP100way_vertebrate_rankscore)
+# - All phastCons features (raw versions, keeping only rankscores if they exist)
+# - bStatistic (raw, keeping bStatistic_converted_rankscore if exists)
+# - Reliability_index
+# - M-CAP_score (keeping M-CAP_rankscore)
+# - MetaLR_score (keeping MetaLR_rankscore)
+# - MetaRNN_score (keeping MetaRNN_rankscore)
+# - MVP_score (keeping MVP_rankscore)
+# - MPC_rankscore (keeping only gMVP_rankscore)
+# - All BayesDel features (BayesDel_addAF_score, BayesDel_addAF_rankscore, BayesDel_noAF_score, BayesDel_noAF_rankscore)
+# - VARITY_R_score, VARITY_R_rankscore (keeping VARITY_R_LOO_rankscore)
+# - VARITY_ER_score, VARITY_ER_rankscore (keeping VARITY_ER_LOO_rankscore)
+# - VARITY_ER_LOO_score (keeping VARITY_ER_LOO_rankscore)
+# - SIFT_converted_rankscore (keeping SIFT4G_converted_rankscore)
+# - All Polyphen2_HDIV features (keeping Polyphen2_HVAR_rankscore)
+# - Start, Stop, RS# (dbSNP), NumberSubmitters, SubmitterCategories, PositionVCF, StarStatus (metadata)
+# - plddt, rsa (structural features)
+# - All *_lab features (encoded categoricals) EXCEPT ClinicalSignificance

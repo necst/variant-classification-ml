@@ -1,0 +1,5 @@
+name: dbnfs_5c_bal_10k_10000
+path: datasets_new/dbnfs_5c_bal_10k_10000.csv
+description: "Balanced 5-class dataset with 10k samples - Pathogenic, Uncertain significance, Benign, Likely pathogenic, and Likely benign"
+low_memory: false
+target_column: ClinicalSignificance

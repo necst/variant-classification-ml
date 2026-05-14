@@ -1,0 +1,10 @@
+name: all_features
+
+drop_feature_selectors:
+  regex_pattern: '$.'
+  slice_by_name: []
+  explicit_list: []
+select_numeric_features: true
+fill_na_strategy:
+scaler: null
+steps:

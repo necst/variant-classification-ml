@@ -1,0 +1,46 @@
+# Main configuration file
+defaults:
+  - dataset: dbnfs3_44005_bal
+  - model: xgboost
+  - preprocessing: drop_raw_metadata_and_labs
+  - _self_
+  - override hydra/sweeper: ax
+
+training:
+  test_size: 0.2
+  random_state: 42
+  save_model: false
+
+hydra:
+  sweep:
+    dir: multirun/${model.name}_${dataset.name}_${preprocessing.name}
+    subdir: ${hydra.job.num}
+
+  run:
+    dir: outputs/${model.name}_${dataset.name}_${preprocessing.name}
+  
+  sweeper:
+    ax_config:
+      max_trials: 10
+      
+      early_stop:
+        minimize: false
+        max_epochs_without_improvement: 10
+        epsilon: 0.001
+      
+      experiment:
+        name: null
+        objective_name: f1
+        minimize: false
+        parameter_constraints: null
+        outcome_constraints: null
+        status_quo: null
+
+      client:
+        verbose_logging: false
+        random_seed: 42
+
+      is_noisy: true
+
+      params: ${model.sweep_params}
+                     

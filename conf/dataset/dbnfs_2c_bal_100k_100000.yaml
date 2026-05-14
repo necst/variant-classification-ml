@@ -1,0 +1,5 @@
+name: dbnfs_2c_bal_100k_100000
+path: datasets_new/dbnfs_2c_bal_100k_100000.csv
+description: "Balanced 2-class dataset with 100k samples - Pathogenic and Benign"
+low_memory: false
+target_column: ClinicalSignificance

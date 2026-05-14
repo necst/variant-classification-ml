@@ -1,0 +1,5 @@
+name: dbnfs_2c_bal_full_226142
+path: datasets_new/dbnfs_2c_bal_full_226142.csv
+description: "Balanced 2-class dataset (full set) - Pathogenic and Benign"
+low_memory: false
+target_column: ClinicalSignificance

@@ -1,0 +1,4190 @@
+{
+    "total_runtime": 305462.2792875767,
+    "rules": {
+        "create_ds": {
+            "mean-runtime": 510.5327191352844,
+            "min-runtime": 510.5327191352844,
+            "max-runtime": 510.5327191352844
+        },
+        "train_all": {
+            "mean-runtime": 2048.8082853853703,
+            "min-runtime": 113.6981086730957,
+            "max-runtime": 25635.661785840988
+        },
+        "train_optimized": {
+            "mean-runtime": 60.4123633917835,
+            "min-runtime": 2.2088987827301025,
+            "max-runtime": 1372.0744788646698
+        },
+        "run_tests": {
+            "mean-runtime": 1223.482792854309,
+            "min-runtime": 1223.482792854309,
+            "max-runtime": 1223.482792854309
+        },
+        "all": {
+            "mean-runtime": 0.0007369518280029297,
+            "min-runtime": 0.0007369518280029297,
+            "max-runtime": 0.0007369518280029297
+        }
+    },
+    "files": {
+        "datasets_new/dbnfs_2c_bal_100k_100000.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_2c_bal_10k_10000.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_2c_bal_full_218142.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_3c_bal_100k_100000.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_3c_bal_10k_10000.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_3c_bal_full_327213.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_4c_bal_100k_100000.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_4c_bal_10k_10000.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_4c_bal_full_123932.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_5c_bal_100k_100000.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_5c_bal_10k_10000.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_5c_bal_full_154915.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_2c_test.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_3c_test.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_4c_test.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_5c_test.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "datasets_new/dbnfs_uncertain.csv": {
+            "start-time": "Thu Dec 18 23:06:56 2025",
+            "stop-time": "Thu Dec 18 23:15:26 2025",
+            "duration": 510.5327191352844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_3c_bal_full_327213_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Thu Dec 18 23:15:26 2025",
+            "stop-time": "Fri Dec 19 05:23:59 2025",
+            "duration": 22112.95191335678,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_3c_bal_full_327213_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Fri Dec 19 05:23:59 2025",
+            "stop-time": "Fri Dec 19 11:55:09 2025",
+            "duration": 23469.229865550995,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_3c_bal_full_327213_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Fri Dec 19 11:55:09 2025",
+            "stop-time": "Fri Dec 19 12:14:15 2025",
+            "duration": 1146.4374895095825,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_3c_bal_full_327213_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Fri Dec 19 12:14:15 2025",
+            "stop-time": "Fri Dec 19 12:36:04 2025",
+            "duration": 1308.640867471695,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_3c_bal_full_327213_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Fri Dec 19 12:36:04 2025",
+            "stop-time": "Fri Dec 19 13:03:33 2025",
+            "duration": 1648.9416959285736,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_3c_bal_full_327213_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Fri Dec 19 13:03:33 2025",
+            "stop-time": "Fri Dec 19 13:35:25 2025",
+            "duration": 1912.7186896800995,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_3c_bal_full_327213_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Fri Dec 19 13:35:25 2025",
+            "stop-time": "Fri Dec 19 13:49:16 2025",
+            "duration": 830.4153566360474,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_3c_bal_full_327213_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Fri Dec 19 13:49:16 2025",
+            "stop-time": "Fri Dec 19 14:00:47 2025",
+            "duration": 691.0224096775055,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_3c_bal_full_327213_all_features/optimization_results.yaml": {
+            "start-time": "Fri Dec 19 14:00:47 2025",
+            "stop-time": "Fri Dec 19 21:08:02 2025",
+            "duration": 25635.661785840988,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_3c_bal_full_327213_all_features/optimization_results.yaml": {
+            "start-time": "Fri Dec 19 21:08:02 2025",
+            "stop-time": "Fri Dec 19 21:41:25 2025",
+            "duration": 2002.5628509521484,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_3c_bal_full_327213_all_features/optimization_results.yaml": {
+            "start-time": "Fri Dec 19 21:41:25 2025",
+            "stop-time": "Fri Dec 19 22:41:48 2025",
+            "duration": 3622.6949722766876,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_3c_bal_full_327213_all_features/optimization_results.yaml": {
+            "start-time": "Fri Dec 19 22:41:48 2025",
+            "stop-time": "Sat Dec 20 00:01:37 2025",
+            "duration": 4789.24881362915,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_2c_bal_full_218142_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 00:01:37 2025",
+            "stop-time": "Sat Dec 20 00:53:05 2025",
+            "duration": 3088.2519268989563,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_2c_bal_full_218142_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 00:53:05 2025",
+            "stop-time": "Sat Dec 20 02:03:25 2025",
+            "duration": 4220.22265958786,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_2c_bal_full_218142_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 02:03:25 2025",
+            "stop-time": "Sat Dec 20 02:10:23 2025",
+            "duration": 417.3695468902588,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_2c_bal_full_218142_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 02:10:23 2025",
+            "stop-time": "Sat Dec 20 02:17:28 2025",
+            "duration": 425.5046308040619,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_2c_bal_full_218142_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 02:17:28 2025",
+            "stop-time": "Sat Dec 20 02:28:34 2025",
+            "duration": 665.6557521820068,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_2c_bal_full_218142_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 02:28:34 2025",
+            "stop-time": "Sat Dec 20 02:42:24 2025",
+            "duration": 829.9183807373047,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_2c_bal_full_218142_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 02:42:24 2025",
+            "stop-time": "Sat Dec 20 02:53:25 2025",
+            "duration": 661.6103427410126,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_2c_bal_full_218142_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 02:53:25 2025",
+            "stop-time": "Sat Dec 20 02:58:16 2025",
+            "duration": 290.30714654922485,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_2c_bal_full_218142_all_features/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 02:58:16 2025",
+            "stop-time": "Sat Dec 20 06:21:26 2025",
+            "duration": 12190.390161514282,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_2c_bal_full_218142_all_features/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 06:21:26 2025",
+            "stop-time": "Sat Dec 20 06:33:54 2025",
+            "duration": 748.2798957824707,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_2c_bal_full_218142_all_features/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 06:33:54 2025",
+            "stop-time": "Sat Dec 20 07:06:05 2025",
+            "duration": 1930.6199870109558,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_2c_bal_full_218142_all_features/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 07:06:05 2025",
+            "stop-time": "Sat Dec 20 07:36:27 2025",
+            "duration": 1821.9679400920868,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_5c_bal_full_154915_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 07:36:27 2025",
+            "stop-time": "Sat Dec 20 12:40:26 2025",
+            "duration": 18239.28005337715,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_5c_bal_full_154915_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 12:40:26 2025",
+            "stop-time": "Sat Dec 20 14:59:27 2025",
+            "duration": 8340.838459014893,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_5c_bal_full_154915_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 14:59:27 2025",
+            "stop-time": "Sat Dec 20 15:23:20 2025",
+            "duration": 1432.9202599525452,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_5c_bal_full_154915_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 15:23:20 2025",
+            "stop-time": "Sat Dec 20 15:46:23 2025",
+            "duration": 1383.2349209785461,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_5c_bal_full_154915_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 15:46:23 2025",
+            "stop-time": "Sat Dec 20 16:00:43 2025",
+            "duration": 859.71009349823,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_5c_bal_full_154915_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 16:00:43 2025",
+            "stop-time": "Sat Dec 20 16:14:29 2025",
+            "duration": 825.5991814136505,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_5c_bal_full_154915_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 16:14:29 2025",
+            "stop-time": "Sat Dec 20 16:27:21 2025",
+            "duration": 772.1680266857147,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_5c_bal_full_154915_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 16:27:21 2025",
+            "stop-time": "Sat Dec 20 16:38:01 2025",
+            "duration": 640.5415625572205,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_5c_bal_full_154915_all_features/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 16:38:01 2025",
+            "stop-time": "Sat Dec 20 19:42:17 2025",
+            "duration": 11055.457364559174,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_5c_bal_full_154915_all_features/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 19:42:17 2025",
+            "stop-time": "Sat Dec 20 20:56:17 2025",
+            "duration": 4440.015171527863,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_5c_bal_full_154915_all_features/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 20:56:17 2025",
+            "stop-time": "Sat Dec 20 21:26:52 2025",
+            "duration": 1834.9182958602905,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_5c_bal_full_154915_all_features/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 21:26:52 2025",
+            "stop-time": "Sat Dec 20 22:21:21 2025",
+            "duration": 3269.4447181224823,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_4c_bal_full_123932_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 22:21:21 2025",
+            "stop-time": "Sat Dec 20 23:49:39 2025",
+            "duration": 5297.4026572704315,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_4c_bal_full_123932_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sat Dec 20 23:49:39 2025",
+            "stop-time": "Sun Dec 21 01:13:38 2025",
+            "duration": 5039.197629928589,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_4c_bal_full_123932_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 01:13:38 2025",
+            "stop-time": "Sun Dec 21 01:29:32 2025",
+            "duration": 953.7324366569519,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_4c_bal_full_123932_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 01:29:32 2025",
+            "stop-time": "Sun Dec 21 01:44:01 2025",
+            "duration": 869.6140222549438,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_4c_bal_full_123932_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 01:44:01 2025",
+            "stop-time": "Sun Dec 21 01:57:10 2025",
+            "duration": 788.5153143405914,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_4c_bal_full_123932_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 01:57:10 2025",
+            "stop-time": "Sun Dec 21 02:08:59 2025",
+            "duration": 709.2399411201477,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_4c_bal_full_123932_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 02:08:59 2025",
+            "stop-time": "Sun Dec 21 02:17:23 2025",
+            "duration": 503.66713404655457,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_4c_bal_full_123932_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 02:17:23 2025",
+            "stop-time": "Sun Dec 21 02:24:39 2025",
+            "duration": 436.5603492259979,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_4c_bal_full_123932_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 02:24:39 2025",
+            "stop-time": "Sun Dec 21 04:02:37 2025",
+            "duration": 5877.506327390671,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_4c_bal_full_123932_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 04:02:37 2025",
+            "stop-time": "Sun Dec 21 04:35:37 2025",
+            "duration": 1980.5017359256744,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_4c_bal_full_123932_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 04:35:37 2025",
+            "stop-time": "Sun Dec 21 04:58:34 2025",
+            "duration": 1377.050472021103,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_4c_bal_full_123932_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 04:58:34 2025",
+            "stop-time": "Sun Dec 21 05:30:31 2025",
+            "duration": 1916.8990139961243,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_3c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 05:30:31 2025",
+            "stop-time": "Sun Dec 21 06:49:14 2025",
+            "duration": 4722.4898409843445,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_3c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 06:49:14 2025",
+            "stop-time": "Sun Dec 21 07:37:15 2025",
+            "duration": 2881.6562275886536,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_3c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 07:37:15 2025",
+            "stop-time": "Sun Dec 21 07:48:06 2025",
+            "duration": 650.5431034564972,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_3c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 07:48:06 2025",
+            "stop-time": "Sun Dec 21 07:56:31 2025",
+            "duration": 505.0334198474884,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_3c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 07:56:31 2025",
+            "stop-time": "Sun Dec 21 08:04:51 2025",
+            "duration": 500.25262999534607,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_3c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 08:04:51 2025",
+            "stop-time": "Sun Dec 21 08:11:42 2025",
+            "duration": 410.9566345214844,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_3c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 08:11:42 2025",
+            "stop-time": "Sun Dec 21 08:24:35 2025",
+            "duration": 773.2311632633209,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_3c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 08:24:35 2025",
+            "stop-time": "Sun Dec 21 08:30:00 2025",
+            "duration": 324.8213346004486,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_3c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 08:30:00 2025",
+            "stop-time": "Sun Dec 21 09:47:27 2025",
+            "duration": 4647.150301933289,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_3c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 09:47:27 2025",
+            "stop-time": "Sun Dec 21 10:05:26 2025",
+            "duration": 1079.0445756912231,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_3c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 10:05:26 2025",
+            "stop-time": "Sun Dec 21 10:24:33 2025",
+            "duration": 1146.559580564499,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_3c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 10:24:33 2025",
+            "stop-time": "Sun Dec 21 11:48:21 2025",
+            "duration": 5027.7223699092865,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_5c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 11:48:21 2025",
+            "stop-time": "Sun Dec 21 13:01:55 2025",
+            "duration": 4414.19304060936,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_5c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 13:01:55 2025",
+            "stop-time": "Sun Dec 21 13:30:16 2025",
+            "duration": 1701.4490950107574,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_5c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 13:30:16 2025",
+            "stop-time": "Sun Dec 21 13:46:48 2025",
+            "duration": 991.95299243927,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_5c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 13:46:48 2025",
+            "stop-time": "Sun Dec 21 14:01:19 2025",
+            "duration": 870.3700735569,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_5c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 14:01:19 2025",
+            "stop-time": "Sun Dec 21 14:13:33 2025",
+            "duration": 734.1780135631561,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_5c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 14:13:33 2025",
+            "stop-time": "Sun Dec 21 14:27:41 2025",
+            "duration": 847.9495542049408,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_5c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 14:27:41 2025",
+            "stop-time": "Sun Dec 21 14:35:33 2025",
+            "duration": 472.3380126953125,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_5c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 14:35:33 2025",
+            "stop-time": "Sun Dec 21 14:44:34 2025",
+            "duration": 540.9259860515594,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_5c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 14:44:34 2025",
+            "stop-time": "Sun Dec 21 16:13:45 2025",
+            "duration": 5351.2924172878265,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_5c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 16:13:45 2025",
+            "stop-time": "Sun Dec 21 16:58:35 2025",
+            "duration": 2689.4219102859497,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_5c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 16:58:35 2025",
+            "stop-time": "Sun Dec 21 17:12:25 2025",
+            "duration": 830.7788827419281,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_5c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 17:12:25 2025",
+            "stop-time": "Sun Dec 21 17:42:22 2025",
+            "duration": 1796.6978106498718,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_4c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 17:42:22 2025",
+            "stop-time": "Sun Dec 21 18:38:04 2025",
+            "duration": 3342.283228635788,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_4c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 18:38:04 2025",
+            "stop-time": "Sun Dec 21 20:13:16 2025",
+            "duration": 5711.936682939529,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_4c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 20:13:16 2025",
+            "stop-time": "Sun Dec 21 20:23:44 2025",
+            "duration": 627.3068580627441,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_4c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 20:23:44 2025",
+            "stop-time": "Sun Dec 21 20:36:50 2025",
+            "duration": 786.2930355072021,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_4c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 20:36:50 2025",
+            "stop-time": "Sun Dec 21 20:44:52 2025",
+            "duration": 481.9724488258362,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_4c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 20:44:52 2025",
+            "stop-time": "Sun Dec 21 20:53:19 2025",
+            "duration": 507.3809232711792,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_4c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 20:53:19 2025",
+            "stop-time": "Sun Dec 21 21:01:39 2025",
+            "duration": 499.7701644897461,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_4c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 21:01:39 2025",
+            "stop-time": "Sun Dec 21 21:08:20 2025",
+            "duration": 401.175936460495,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_4c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 21:08:20 2025",
+            "stop-time": "Sun Dec 21 23:13:02 2025",
+            "duration": 7481.321026325226,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_4c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 23:13:02 2025",
+            "stop-time": "Sun Dec 21 23:37:31 2025",
+            "duration": 1469.8406677246094,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_4c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 23:37:31 2025",
+            "stop-time": "Sun Dec 21 23:50:30 2025",
+            "duration": 778.3222589492798,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_4c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Sun Dec 21 23:50:30 2025",
+            "stop-time": "Mon Dec 22 00:18:20 2025",
+            "duration": 1670.013258934021,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_2c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 00:18:20 2025",
+            "stop-time": "Mon Dec 22 01:22:17 2025",
+            "duration": 3837.585083246231,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_2c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 01:22:17 2025",
+            "stop-time": "Mon Dec 22 01:55:36 2025",
+            "duration": 1998.2971358299255,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_2c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 01:55:36 2025",
+            "stop-time": "Mon Dec 22 02:00:09 2025",
+            "duration": 273.6481282711029,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_2c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 02:00:09 2025",
+            "stop-time": "Mon Dec 22 02:03:26 2025",
+            "duration": 196.47113871574402,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_2c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 02:03:26 2025",
+            "stop-time": "Mon Dec 22 02:09:09 2025",
+            "duration": 343.63321185112,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_2c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 02:09:09 2025",
+            "stop-time": "Mon Dec 22 02:16:05 2025",
+            "duration": 416.0459146499634,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_2c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 02:16:06 2025",
+            "stop-time": "Mon Dec 22 02:24:26 2025",
+            "duration": 500.1864252090454,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_2c_bal_100k_100000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 02:24:26 2025",
+            "stop-time": "Mon Dec 22 02:27:26 2025",
+            "duration": 179.87569093704224,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_2c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 02:27:26 2025",
+            "stop-time": "Mon Dec 22 03:52:24 2025",
+            "duration": 5098.413360834122,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_2c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 03:52:24 2025",
+            "stop-time": "Mon Dec 22 03:58:30 2025",
+            "duration": 366.44905853271484,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_2c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 03:58:30 2025",
+            "stop-time": "Mon Dec 22 04:13:34 2025",
+            "duration": 903.6068058013916,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_2c_bal_100k_100000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 04:13:34 2025",
+            "stop-time": "Mon Dec 22 05:09:35 2025",
+            "duration": 3361.2971880435944,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_3c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 05:09:35 2025",
+            "stop-time": "Mon Dec 22 05:20:59 2025",
+            "duration": 683.3528847694397,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_3c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 05:20:59 2025",
+            "stop-time": "Mon Dec 22 05:24:38 2025",
+            "duration": 219.35670518875122,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_3c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 05:24:38 2025",
+            "stop-time": "Mon Dec 22 05:27:21 2025",
+            "duration": 163.0774154663086,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_3c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 05:27:21 2025",
+            "stop-time": "Mon Dec 22 05:29:57 2025",
+            "duration": 156.05633068084717,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_3c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 05:29:57 2025",
+            "stop-time": "Mon Dec 22 05:35:18 2025",
+            "duration": 320.81598949432373,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_3c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 05:35:18 2025",
+            "stop-time": "Mon Dec 22 05:37:58 2025",
+            "duration": 159.97832775115967,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_3c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 05:37:58 2025",
+            "stop-time": "Mon Dec 22 05:40:42 2025",
+            "duration": 163.63605046272278,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_3c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 05:40:42 2025",
+            "stop-time": "Mon Dec 22 05:43:25 2025",
+            "duration": 163.64709758758545,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_3c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 05:43:25 2025",
+            "stop-time": "Mon Dec 22 05:50:52 2025",
+            "duration": 446.31073355674744,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_3c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 05:50:52 2025",
+            "stop-time": "Mon Dec 22 05:57:17 2025",
+            "duration": 385.0960476398468,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_3c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 05:57:17 2025",
+            "stop-time": "Mon Dec 22 06:00:37 2025",
+            "duration": 200.733092546463,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_3c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 06:00:37 2025",
+            "stop-time": "Mon Dec 22 06:08:32 2025",
+            "duration": 474.9456021785736,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_5c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 06:08:32 2025",
+            "stop-time": "Mon Dec 22 06:17:59 2025",
+            "duration": 566.5757234096527,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_5c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 06:17:59 2025",
+            "stop-time": "Mon Dec 22 06:22:54 2025",
+            "duration": 295.25012493133545,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_5c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 06:22:54 2025",
+            "stop-time": "Mon Dec 22 06:30:06 2025",
+            "duration": 432.04388308525085,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_5c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 06:30:06 2025",
+            "stop-time": "Mon Dec 22 06:35:57 2025",
+            "duration": 350.95643281936646,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_5c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 06:35:57 2025",
+            "stop-time": "Mon Dec 22 06:40:35 2025",
+            "duration": 277.8616943359375,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_5c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 06:40:35 2025",
+            "stop-time": "Mon Dec 22 06:43:12 2025",
+            "duration": 156.7326695919037,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_5c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 06:43:12 2025",
+            "stop-time": "Mon Dec 22 06:46:10 2025",
+            "duration": 178.14786410331726,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_5c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 06:46:10 2025",
+            "stop-time": "Mon Dec 22 06:49:38 2025",
+            "duration": 208.0064618587494,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_5c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 06:49:38 2025",
+            "stop-time": "Mon Dec 22 07:01:08 2025",
+            "duration": 690.1889741420746,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_5c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 07:01:08 2025",
+            "stop-time": "Mon Dec 22 07:10:32 2025",
+            "duration": 564.3472554683685,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_5c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 07:10:33 2025",
+            "stop-time": "Mon Dec 22 07:13:02 2025",
+            "duration": 149.70502710342407,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_5c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 07:13:02 2025",
+            "stop-time": "Mon Dec 22 07:18:35 2025",
+            "duration": 333.0402669906616,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_4c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 07:18:35 2025",
+            "stop-time": "Mon Dec 22 07:31:04 2025",
+            "duration": 749.1533377170563,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_4c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 07:31:04 2025",
+            "stop-time": "Mon Dec 22 07:37:35 2025",
+            "duration": 390.4517047405243,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_4c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 07:37:35 2025",
+            "stop-time": "Mon Dec 22 07:41:58 2025",
+            "duration": 262.6694209575653,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_4c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 07:41:58 2025",
+            "stop-time": "Mon Dec 22 07:45:55 2025",
+            "duration": 237.73959302902222,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_4c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 07:45:55 2025",
+            "stop-time": "Mon Dec 22 07:48:30 2025",
+            "duration": 154.33990263938904,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_4c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 07:48:30 2025",
+            "stop-time": "Mon Dec 22 07:50:44 2025",
+            "duration": 134.84165811538696,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_4c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 07:50:44 2025",
+            "stop-time": "Mon Dec 22 07:53:12 2025",
+            "duration": 147.3996868133545,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_4c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 07:53:12 2025",
+            "stop-time": "Mon Dec 22 07:56:11 2025",
+            "duration": 179.20250153541565,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_4c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 07:56:11 2025",
+            "stop-time": "Mon Dec 22 08:05:03 2025",
+            "duration": 532.0075845718384,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_4c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 08:05:03 2025",
+            "stop-time": "Mon Dec 22 08:14:19 2025",
+            "duration": 556.291316986084,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_4c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 08:14:19 2025",
+            "stop-time": "Mon Dec 22 08:16:56 2025",
+            "duration": 156.54675960540771,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_4c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 08:16:56 2025",
+            "stop-time": "Mon Dec 22 08:25:34 2025",
+            "duration": 518.3848156929016,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_2c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 08:25:34 2025",
+            "stop-time": "Mon Dec 22 08:34:29 2025",
+            "duration": 534.516509771347,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_2c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 08:34:29 2025",
+            "stop-time": "Mon Dec 22 08:37:57 2025",
+            "duration": 208.21917533874512,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_2c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 08:37:57 2025",
+            "stop-time": "Mon Dec 22 08:40:40 2025",
+            "duration": 162.91690158843994,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_2c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 08:40:40 2025",
+            "stop-time": "Mon Dec 22 08:43:37 2025",
+            "duration": 176.8854148387909,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_2c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 08:43:37 2025",
+            "stop-time": "Mon Dec 22 08:45:31 2025",
+            "duration": 113.6981086730957,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_2c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 08:45:31 2025",
+            "stop-time": "Mon Dec 22 08:48:41 2025",
+            "duration": 190.43919229507446,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_2c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 08:48:41 2025",
+            "stop-time": "Mon Dec 22 08:50:46 2025",
+            "duration": 124.72324466705322,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_2c_bal_10k_10000_drop_raw_metadata_and_labs/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 08:50:46 2025",
+            "stop-time": "Mon Dec 22 08:52:56 2025",
+            "duration": 130.50021314620972,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/mlp_dbnfs_2c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 08:52:56 2025",
+            "stop-time": "Mon Dec 22 09:02:08 2025",
+            "duration": 551.3355293273926,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/xgboost_dbnfs_2c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 09:02:08 2025",
+            "stop-time": "Mon Dec 22 09:04:16 2025",
+            "duration": 128.12111139297485,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/randfor_dbnfs_2c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 09:04:16 2025",
+            "stop-time": "Mon Dec 22 09:08:48 2025",
+            "duration": 271.9731159210205,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "multirun/logreg_dbnfs_2c_bal_10k_10000_all_features/optimization_results.yaml": {
+            "start-time": "Mon Dec 22 09:08:48 2025",
+            "stop-time": "Mon Dec 22 09:12:35 2025",
+            "duration": 227.39881443977356,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:12:35 2025",
+            "stop-time": "Mon Dec 22 09:12:44 2025",
+            "duration": 9.14735198020935,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 09:12:44 2025",
+            "stop-time": "Mon Dec 22 09:12:52 2025",
+            "duration": 8.297191143035889,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_full_218142_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:12:53 2025",
+            "stop-time": "Mon Dec 22 09:13:08 2025",
+            "duration": 15.398666143417358,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 09:13:08 2025",
+            "stop-time": "Mon Dec 22 09:13:11 2025",
+            "duration": 2.7245755195617676,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 09:13:11 2025",
+            "stop-time": "Mon Dec 22 09:13:20 2025",
+            "duration": 9.552093982696533,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_full_218142_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 09:13:20 2025",
+            "stop-time": "Mon Dec 22 09:13:43 2025",
+            "duration": 22.77436327934265,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 09:13:43 2025",
+            "stop-time": "Mon Dec 22 09:13:45 2025",
+            "duration": 2.464243173599243,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:13:45 2025",
+            "stop-time": "Mon Dec 22 09:13:48 2025",
+            "duration": 2.3475639820098877,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_5c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:13:48 2025",
+            "stop-time": "Mon Dec 22 09:16:02 2025",
+            "duration": 134.34488558769226,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_3c_bal_full_327213_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:16:02 2025",
+            "stop-time": "Mon Dec 22 09:27:57 2025",
+            "duration": 715.051171541214,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_full_218142_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:27:57 2025",
+            "stop-time": "Mon Dec 22 09:29:23 2025",
+            "duration": 85.41088891029358,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_full_123932_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:29:23 2025",
+            "stop-time": "Mon Dec 22 09:32:28 2025",
+            "duration": 185.30407309532166,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_3c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:32:28 2025",
+            "stop-time": "Mon Dec 22 09:34:50 2025",
+            "duration": 141.88098740577698,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_5c_bal_full_154915_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:34:50 2025",
+            "stop-time": "Mon Dec 22 09:44:51 2025",
+            "duration": 600.9173400402069,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_full_218142_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 09:44:51 2025",
+            "stop-time": "Mon Dec 22 09:45:04 2025",
+            "duration": 13.097519397735596,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_3c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:45:04 2025",
+            "stop-time": "Mon Dec 22 09:45:17 2025",
+            "duration": 12.910555362701416,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:45:17 2025",
+            "stop-time": "Mon Dec 22 09:45:35 2025",
+            "duration": 18.239135026931763,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_full_218142_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 09:45:35 2025",
+            "stop-time": "Mon Dec 22 09:48:20 2025",
+            "duration": 165.53566789627075,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 09:48:20 2025",
+            "stop-time": "Mon Dec 22 09:49:51 2025",
+            "duration": 90.1711528301239,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_5c_bal_full_154915_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 09:49:51 2025",
+            "stop-time": "Mon Dec 22 09:54:07 2025",
+            "duration": 256.7163755893707,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_full_123932_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 09:54:07 2025",
+            "stop-time": "Mon Dec 22 09:55:17 2025",
+            "duration": 69.89718461036682,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_5c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 09:55:17 2025",
+            "stop-time": "Mon Dec 22 09:55:39 2025",
+            "duration": 21.808722972869873,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:55:39 2025",
+            "stop-time": "Mon Dec 22 09:57:43 2025",
+            "duration": 123.80823087692261,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 09:57:43 2025",
+            "stop-time": "Mon Dec 22 09:58:22 2025",
+            "duration": 39.361445903778076,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 09:58:22 2025",
+            "stop-time": "Mon Dec 22 09:58:26 2025",
+            "duration": 3.8772008419036865,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:58:26 2025",
+            "stop-time": "Mon Dec 22 09:58:31 2025",
+            "duration": 4.383409023284912,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:58:31 2025",
+            "stop-time": "Mon Dec 22 09:58:45 2025",
+            "duration": 14.167884588241577,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_3c_bal_full_327213_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:58:45 2025",
+            "stop-time": "Mon Dec 22 09:59:18 2025",
+            "duration": 33.2089729309082,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_5c_bal_full_154915_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 09:59:18 2025",
+            "stop-time": "Mon Dec 22 10:00:02 2025",
+            "duration": 44.42115354537964,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_3c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 10:00:02 2025",
+            "stop-time": "Mon Dec 22 10:00:19 2025",
+            "duration": 16.718156099319458,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_5c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 10:00:19 2025",
+            "stop-time": "Mon Dec 22 10:00:28 2025",
+            "duration": 9.133635520935059,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_5c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 10:00:28 2025",
+            "stop-time": "Mon Dec 22 10:03:12 2025",
+            "duration": 163.6487534046173,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_3c_bal_full_327213_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 10:03:12 2025",
+            "stop-time": "Mon Dec 22 10:12:10 2025",
+            "duration": 538.1547029018402,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 10:12:10 2025",
+            "stop-time": "Mon Dec 22 10:14:45 2025",
+            "duration": 155.14804005622864,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_3c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 10:14:45 2025",
+            "stop-time": "Mon Dec 22 10:17:25 2025",
+            "duration": 159.4692726135254,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 10:17:25 2025",
+            "stop-time": "Mon Dec 22 10:18:32 2025",
+            "duration": 67.1259388923645,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 10:18:32 2025",
+            "stop-time": "Mon Dec 22 10:19:02 2025",
+            "duration": 30.612297773361206,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_full_123932_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 10:19:02 2025",
+            "stop-time": "Mon Dec 22 10:22:52 2025",
+            "duration": 229.1886031627655,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_3c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 10:22:52 2025",
+            "stop-time": "Mon Dec 22 10:25:15 2025",
+            "duration": 143.31254839897156,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_3c_bal_full_327213_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 10:25:15 2025",
+            "stop-time": "Mon Dec 22 10:48:07 2025",
+            "duration": 1372.0744788646698,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_5c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 10:48:07 2025",
+            "stop-time": "Mon Dec 22 10:48:15 2025",
+            "duration": 8.41689419746399,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 10:48:15 2025",
+            "stop-time": "Mon Dec 22 10:48:18 2025",
+            "duration": 2.7290446758270264,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_5c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 10:48:18 2025",
+            "stop-time": "Mon Dec 22 10:48:37 2025",
+            "duration": 18.62014675140381,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_5c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 10:48:37 2025",
+            "stop-time": "Mon Dec 22 10:49:02 2025",
+            "duration": 25.44627594947815,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 10:49:02 2025",
+            "stop-time": "Mon Dec 22 10:49:27 2025",
+            "duration": 24.719836711883545,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_full_123932_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 10:49:27 2025",
+            "stop-time": "Mon Dec 22 10:49:59 2025",
+            "duration": 31.67156672477722,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_full_123932_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 10:49:59 2025",
+            "stop-time": "Mon Dec 22 10:50:29 2025",
+            "duration": 30.129767417907715,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_3c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 10:50:29 2025",
+            "stop-time": "Mon Dec 22 10:50:47 2025",
+            "duration": 18.614393949508667,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_3c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 10:50:47 2025",
+            "stop-time": "Mon Dec 22 10:50:54 2025",
+            "duration": 6.957170724868774,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 10:50:54 2025",
+            "stop-time": "Mon Dec 22 10:51:16 2025",
+            "duration": 21.480347156524658,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_5c_bal_full_154915_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 10:51:16 2025",
+            "stop-time": "Mon Dec 22 10:51:56 2025",
+            "duration": 40.4396550655365,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_5c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 10:51:56 2025",
+            "stop-time": "Mon Dec 22 10:52:30 2025",
+            "duration": 33.41402196884155,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 10:52:30 2025",
+            "stop-time": "Mon Dec 22 10:52:36 2025",
+            "duration": 6.015441417694092,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_3c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 10:52:36 2025",
+            "stop-time": "Mon Dec 22 10:52:40 2025",
+            "duration": 3.9507555961608887,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_5c_bal_full_154915_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 10:52:40 2025",
+            "stop-time": "Mon Dec 22 10:59:38 2025",
+            "duration": 418.1237630844116,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 10:59:38 2025",
+            "stop-time": "Mon Dec 22 10:59:53 2025",
+            "duration": 15.05158257484436,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_3c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 10:59:53 2025",
+            "stop-time": "Mon Dec 22 11:00:06 2025",
+            "duration": 13.589162826538086,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_5c_bal_full_154915_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:00:06 2025",
+            "stop-time": "Mon Dec 22 11:01:35 2025",
+            "duration": 88.60192036628723,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_full_123932_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:01:35 2025",
+            "stop-time": "Mon Dec 22 11:02:50 2025",
+            "duration": 74.86852312088013,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:02:50 2025",
+            "stop-time": "Mon Dec 22 11:03:42 2025",
+            "duration": 51.797322034835815,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_5c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:03:42 2025",
+            "stop-time": "Mon Dec 22 11:05:02 2025",
+            "duration": 80.3297278881073,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_5c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:05:02 2025",
+            "stop-time": "Mon Dec 22 11:05:22 2025",
+            "duration": 20.586227416992188,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_3c_bal_full_327213_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:05:22 2025",
+            "stop-time": "Mon Dec 22 11:06:19 2025",
+            "duration": 56.835906982421875,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:06:19 2025",
+            "stop-time": "Mon Dec 22 11:06:36 2025",
+            "duration": 16.492926359176636,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_3c_bal_full_327213_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:06:36 2025",
+            "stop-time": "Mon Dec 22 11:07:08 2025",
+            "duration": 31.817142486572266,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_3c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:07:08 2025",
+            "stop-time": "Mon Dec 22 11:07:41 2025",
+            "duration": 33.47791934013367,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_5c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:07:41 2025",
+            "stop-time": "Mon Dec 22 11:07:47 2025",
+            "duration": 5.909338474273682,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:07:47 2025",
+            "stop-time": "Mon Dec 22 11:07:58 2025",
+            "duration": 10.742064237594604,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_full_218142_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:07:58 2025",
+            "stop-time": "Mon Dec 22 11:12:14 2025",
+            "duration": 255.860289812088,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_3c_bal_full_327213_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:12:14 2025",
+            "stop-time": "Mon Dec 22 11:12:51 2025",
+            "duration": 37.497557163238525,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_5c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:12:51 2025",
+            "stop-time": "Mon Dec 22 11:13:05 2025",
+            "duration": 13.47542428970337,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_3c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:13:05 2025",
+            "stop-time": "Mon Dec 22 11:13:17 2025",
+            "duration": 12.17239236831665,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:13:17 2025",
+            "stop-time": "Mon Dec 22 11:13:30 2025",
+            "duration": 12.71556305885315,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_5c_bal_full_154915_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:13:30 2025",
+            "stop-time": "Mon Dec 22 11:13:54 2025",
+            "duration": 24.330008268356323,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:13:54 2025",
+            "stop-time": "Mon Dec 22 11:14:08 2025",
+            "duration": 13.724628925323486,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_3c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:14:08 2025",
+            "stop-time": "Mon Dec 22 11:14:21 2025",
+            "duration": 13.859283447265625,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_full_123932_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:14:21 2025",
+            "stop-time": "Mon Dec 22 11:14:42 2025",
+            "duration": 20.508545875549316,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_full_218142_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:14:42 2025",
+            "stop-time": "Mon Dec 22 11:14:59 2025",
+            "duration": 17.516371250152588,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_5c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:14:59 2025",
+            "stop-time": "Mon Dec 22 11:15:04 2025",
+            "duration": 4.641855955123901,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_5c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:15:04 2025",
+            "stop-time": "Mon Dec 22 11:15:28 2025",
+            "duration": 23.53682804107666,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:15:28 2025",
+            "stop-time": "Mon Dec 22 11:15:31 2025",
+            "duration": 3.816894054412842,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:15:31 2025",
+            "stop-time": "Mon Dec 22 11:15:36 2025",
+            "duration": 4.42672324180603,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_3c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:15:36 2025",
+            "stop-time": "Mon Dec 22 11:15:40 2025",
+            "duration": 4.498186349868774,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_3c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:15:40 2025",
+            "stop-time": "Mon Dec 22 11:15:51 2025",
+            "duration": 10.216552495956421,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_full_123932_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:15:51 2025",
+            "stop-time": "Mon Dec 22 11:16:08 2025",
+            "duration": 17.52957248687744,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_5c_bal_full_154915_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:16:08 2025",
+            "stop-time": "Mon Dec 22 11:16:34 2025",
+            "duration": 26.131838083267212,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_3c_bal_full_327213_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:16:34 2025",
+            "stop-time": "Mon Dec 22 11:17:12 2025",
+            "duration": 38.18009972572327,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_5c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:17:12 2025",
+            "stop-time": "Mon Dec 22 11:17:28 2025",
+            "duration": 15.470129489898682,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_3c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:17:28 2025",
+            "stop-time": "Mon Dec 22 11:17:41 2025",
+            "duration": 13.182218551635742,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_full_218142_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:17:41 2025",
+            "stop-time": "Mon Dec 22 11:18:09 2025",
+            "duration": 27.93364429473877,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:18:09 2025",
+            "stop-time": "Mon Dec 22 11:18:12 2025",
+            "duration": 2.7783849239349365,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:18:12 2025",
+            "stop-time": "Mon Dec 22 11:18:28 2025",
+            "duration": 15.902301788330078,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:18:28 2025",
+            "stop-time": "Mon Dec 22 11:18:42 2025",
+            "duration": 14.713738679885864,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_5c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:18:42 2025",
+            "stop-time": "Mon Dec 22 11:18:45 2025",
+            "duration": 2.2088987827301025,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:18:45 2025",
+            "stop-time": "Mon Dec 22 11:18:49 2025",
+            "duration": 4.263094663619995,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_3c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:18:49 2025",
+            "stop-time": "Mon Dec 22 11:18:52 2025",
+            "duration": 3.5187578201293945,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:18:52 2025",
+            "stop-time": "Mon Dec 22 11:19:11 2025",
+            "duration": 18.434982538223267,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:19:11 2025",
+            "stop-time": "Mon Dec 22 11:19:21 2025",
+            "duration": 9.99937915802002,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_5c_bal_full_154915_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:19:21 2025",
+            "stop-time": "Mon Dec 22 11:19:41 2025",
+            "duration": 20.522101640701294,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_3c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:19:41 2025",
+            "stop-time": "Mon Dec 22 11:20:07 2025",
+            "duration": 25.998868942260742,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:20:07 2025",
+            "stop-time": "Mon Dec 22 11:20:11 2025",
+            "duration": 3.589348554611206,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_3c_bal_full_327213_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:20:11 2025",
+            "stop-time": "Mon Dec 22 11:20:29 2025",
+            "duration": 17.66222596168518,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_full_123932_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:20:29 2025",
+            "stop-time": "Mon Dec 22 11:20:42 2025",
+            "duration": 12.959010362625122,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_3c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:20:42 2025",
+            "stop-time": "Mon Dec 22 11:20:46 2025",
+            "duration": 4.113075256347656,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:20:46 2025",
+            "stop-time": "Mon Dec 22 11:20:49 2025",
+            "duration": 3.5727450847625732,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_full_218142_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:20:49 2025",
+            "stop-time": "Mon Dec 22 11:21:15 2025",
+            "duration": 26.043389320373535,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_3c_bal_full_327213_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:21:15 2025",
+            "stop-time": "Mon Dec 22 11:22:41 2025",
+            "duration": 85.92571663856506,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:22:41 2025",
+            "stop-time": "Mon Dec 22 11:22:57 2025",
+            "duration": 15.913084030151367,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_full_123932_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:22:57 2025",
+            "stop-time": "Mon Dec 22 11:23:22 2025",
+            "duration": 24.617907762527466,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_5c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:23:22 2025",
+            "stop-time": "Mon Dec 22 11:23:42 2025",
+            "duration": 20.33910632133484,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_3c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:23:42 2025",
+            "stop-time": "Mon Dec 22 11:24:01 2025",
+            "duration": 19.11104702949524,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_full_218142_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:24:01 2025",
+            "stop-time": "Mon Dec 22 11:24:45 2025",
+            "duration": 43.70549464225769,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:24:45 2025",
+            "stop-time": "Mon Dec 22 11:25:07 2025",
+            "duration": 21.622374057769775,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_5c_bal_full_154915_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:25:07 2025",
+            "stop-time": "Mon Dec 22 11:25:48 2025",
+            "duration": 41.688594818115234,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_full_218142_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:25:48 2025",
+            "stop-time": "Mon Dec 22 11:25:56 2025",
+            "duration": 7.495883226394653,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_5c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:25:56 2025",
+            "stop-time": "Mon Dec 22 11:26:00 2025",
+            "duration": 4.033076047897339,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_3c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:26:00 2025",
+            "stop-time": "Mon Dec 22 11:26:05 2025",
+            "duration": 4.78714919090271,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_3c_bal_full_327213_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:26:05 2025",
+            "stop-time": "Mon Dec 22 11:26:27 2025",
+            "duration": 22.020407915115356,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:26:27 2025",
+            "stop-time": "Mon Dec 22 11:26:31 2025",
+            "duration": 3.9940011501312256,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:26:31 2025",
+            "stop-time": "Mon Dec 22 11:26:34 2025",
+            "duration": 3.29593563079834,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:26:34 2025",
+            "stop-time": "Mon Dec 22 11:26:39 2025",
+            "duration": 5.050933599472046,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:26:39 2025",
+            "stop-time": "Mon Dec 22 11:26:50 2025",
+            "duration": 11.415246486663818,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:26:50 2025",
+            "stop-time": "Mon Dec 22 11:26:55 2025",
+            "duration": 4.551542282104492,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_full_123932_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:26:55 2025",
+            "stop-time": "Mon Dec 22 11:27:09 2025",
+            "duration": 14.511823177337646,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_3c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:27:09 2025",
+            "stop-time": "Mon Dec 22 11:27:20 2025",
+            "duration": 10.74421501159668,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_3c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:27:20 2025",
+            "stop-time": "Mon Dec 22 11:27:26 2025",
+            "duration": 5.801220417022705,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_5c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:27:26 2025",
+            "stop-time": "Mon Dec 22 11:27:38 2025",
+            "duration": 12.150550127029419,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:27:38 2025",
+            "stop-time": "Mon Dec 22 11:27:42 2025",
+            "duration": 3.5715625286102295,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_5c_bal_full_154915_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:27:42 2025",
+            "stop-time": "Mon Dec 22 11:28:01 2025",
+            "duration": 18.87216067314148,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_5c_bal_100k_100000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:28:01 2025",
+            "stop-time": "Mon Dec 22 11:28:17 2025",
+            "duration": 16.169194221496582,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_5c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/model.joblib": {
+            "start-time": "Mon Dec 22 11:28:17 2025",
+            "stop-time": "Mon Dec 22 11:28:22 2025",
+            "duration": 5.535079717636108,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_3c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:28:22 2025",
+            "stop-time": "Mon Dec 22 11:31:19 2025",
+            "duration": 176.71984434127808,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_full_123932_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:31:19 2025",
+            "stop-time": "Mon Dec 22 11:31:56 2025",
+            "duration": 36.60688877105713,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_3c_bal_full_327213_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:31:56 2025",
+            "stop-time": "Mon Dec 22 11:32:52 2025",
+            "duration": 56.06421947479248,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_full_218142_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:32:52 2025",
+            "stop-time": "Mon Dec 22 11:33:05 2025",
+            "duration": 13.409797430038452,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_3c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:33:05 2025",
+            "stop-time": "Mon Dec 22 11:33:23 2025",
+            "duration": 17.6540470123291,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:33:23 2025",
+            "stop-time": "Mon Dec 22 11:35:26 2025",
+            "duration": 123.42771935462952,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_5c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:35:26 2025",
+            "stop-time": "Mon Dec 22 11:35:31 2025",
+            "duration": 4.801859140396118,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_5c_bal_10k_10000_drop_raw_metadata_and_labs/model.joblib": {
+            "start-time": "Mon Dec 22 11:35:31 2025",
+            "stop-time": "Mon Dec 22 11:35:38 2025",
+            "duration": 6.732280969619751,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:35:38 2025",
+            "stop-time": "Mon Dec 22 11:35:55 2025",
+            "duration": 17.347437620162964,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_5c_bal_full_154915_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:35:55 2025",
+            "stop-time": "Mon Dec 22 11:36:38 2025",
+            "duration": 43.39690351486206,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_5c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:36:38 2025",
+            "stop-time": "Mon Dec 22 11:37:05 2025",
+            "duration": 26.609835863113403,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_100k_100000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:37:05 2025",
+            "stop-time": "Mon Dec 22 11:37:30 2025",
+            "duration": 24.959480047225952,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_10k_10000_all_features/model.joblib": {
+            "start-time": "Mon Dec 22 11:37:30 2025",
+            "stop-time": "Mon Dec 22 11:37:35 2025",
+            "duration": 4.586517095565796,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "experiments/test_results.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_100k_100000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_100k_100000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_10k_10000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_10k_10000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_full_218142_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_full_218142_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_2c_bal_full_218142_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_100k_100000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_100k_100000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_10k_10000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_10k_10000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_full_123932_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_full_123932_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/logreg_dbnfs_4c_bal_full_123932_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_100k_100000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_100k_100000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_10k_10000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_10k_10000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_full_218142_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_full_218142_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_2c_bal_full_218142_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_100k_100000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_100k_100000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_10k_10000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_10k_10000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_full_123932_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_full_123932_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/mlp_dbnfs_4c_bal_full_123932_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_100k_100000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_100k_100000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_10k_10000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_10k_10000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_full_218142_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_full_218142_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_2c_bal_full_218142_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_100k_100000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_100k_100000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_10k_10000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_10k_10000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_full_123932_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_full_123932_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/randfor_dbnfs_4c_bal_full_123932_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_100k_100000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_100k_100000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_10k_10000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_10k_10000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_full_218142_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_full_218142_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_2c_bal_full_218142_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_100k_100000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_100k_100000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_100k_100000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_10k_10000_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_10k_10000_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_10k_10000_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_full_123932_all_features/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_full_123932_drop_raw_metadata_keep_clinical_context/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        },
+        "outputs/xgboost_dbnfs_4c_bal_full_123932_drop_raw_metadata_and_labs/uncertain_predictions.csv": {
+            "start-time": "Mon Dec 22 11:37:35 2025",
+            "stop-time": "Mon Dec 22 11:57:58 2025",
+            "duration": 1223.482792854309,
+            "priority": 0,
+            "resources": {
+                "_cores": 32,
+                "_nodes": 1,
+                "tmpdir": "/tmp"
+            }
+        }
+    }
+}

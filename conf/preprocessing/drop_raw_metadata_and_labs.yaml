@@ -1,0 +1,14 @@
+name: drop_raw_metadata_and_labs
+
+drop_feature_selectors:
+  regex_pattern: '^(Unnamed: 0|hg19_pos|hg18_pos|.*_score$|.*_pred_lab$|CADD_(raw|phred)$|Eigen-(raw|phred|PC-phred)|GERP\+\+_(NR|RS)$|phyloP(100way_vertebrate$|470way|17way)|phastCons|bStatistic|Reliability_index|M-CAP|MetaLR|MetaRNN|MVP|MPC|BayesDel|VARITY_(R|ER|ER_LOO)$|SIFT_converted_rankscore|Polyphen2_HDIV|Start|Stop|RS#|NumberSubmitters|SubmitterCategories|PositionVCF|StarStatus|plddt|rsa|(?!ClinicalSignificance$|#chr_lab$|ref_lab$|alt_lab$|aaref_lab$|aaalt_lab$).*_lab$)'
+  slice_by_name: []
+  explicit_list: []
+select_numeric_features: true
+fill_na_strategy:
+scaler: null
+steps:
+
+# Drops: index cols, hg19_pos/hg18_pos, *_score, *_pred_lab, raw CADD/Eigen/GERP++/phyloP/phastCons/bStatistic/etc.,
+# M-CAP/MetaLR/MetaRNN/MVP/MPC/BayesDel/VARITY/SIFT_converted/Polyphen2_HDIV, Start/Stop/RS#/NumberSubmitters/
+# SubmitterCategories/PositionVCF/StarStatus/plddt/rsa, and all *_lab except target and basic allele labs.
