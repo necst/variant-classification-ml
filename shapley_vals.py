@@ -1,15 +1,13 @@
 import os
 import sys
 
-# --- MUST BE SET BEFORE IMPORTING NUMPY/SHAP/SKLEARN ---
-# Set this to the number of physical cores you want to use
 cores = "32"
 
-os.environ["OMP_NUM_THREADS"] = cores 
-os.environ["OPENBLAS_NUM_THREADS"] = cores 
-os.environ["MKL_NUM_THREADS"] = cores 
-os.environ["VECLIB_MAXIMUM_THREADS"] = cores 
-os.environ["NUMEXPR_NUM_THREADS"] = cores 
+os.environ["OMP_NUM_THREADS"] = cores
+os.environ["OPENBLAS_NUM_THREADS"] = cores
+os.environ["MKL_NUM_THREADS"] = cores
+os.environ["VECLIB_MAXIMUM_THREADS"] = cores
+os.environ["NUMEXPR_NUM_THREADS"] = cores
 
 import shap
 from pathlib import Path
@@ -80,72 +78,70 @@ for run_dir in outputs_dir.iterdir():
     X_train_summary = shap.kmeans(X_train, 100)
     feature_names = X_train.columns.tolist()
     print(f"Shap of {cfg.model.name}, using KernelExplainer")
-    # --- THE FIX ---
-    # We define a wrapper function. SHAP sees this as a "generic function"
-    # and won't try to access/modify 'feature_names_in_' on the model object.
+
     def predict_wrapper(X_input):
-        # SHAP usually passes numpy arrays here. 
-        # We must convert back to DataFrame because XGBoost is picky about column names.
         if isinstance(X_input, np.ndarray):
             X_df = pd.DataFrame(X_input, columns=feature_names)
             if hasattr(model, "predict_proba"):
                 return model.predict_proba(X_df)
             else:
                 return model.predict(X_df)
-        # Handle case if it's already a DataFrame
         else:
             if hasattr(model, "predict_proba"):
                 return model.predict_proba(X_input)
             else:
                 return model.predict(X_input)
+
     explainer = shap.KernelExplainer(predict_wrapper, X_train_summary)
 
     print("Computing shapley values...")
     shap_values = explainer.shap_values(X_test)
-    
+
     elapsed = int(time.time() - start_time)
-    print(f"Computing took {int(elapsed/60)}m{elapsed%60}s, adding shapley values to previous results")
+    print(
+        f"Computing took {int(elapsed / 60)}m{elapsed % 60}s, adding shapley values to previous results"
+    )
 
     local_dfs = []
 
     if isinstance(shap_values, list):
         for class_idx, class_values in enumerate(shap_values):
             temp_df = pd.DataFrame(class_values, columns=feature_names)
-            temp_df['sample_index'] = temp_df.index
-            temp_df['class'] = class_idx
-            
+            temp_df["sample_index"] = temp_df.index
+            temp_df["class"] = class_idx
+
             melted = temp_df.melt(
-                id_vars=['sample_index', 'class'], 
-                var_name='feature', 
-                value_name='value'
+                id_vars=["sample_index", "class"],
+                var_name="feature",
+                value_name="value",
             )
             local_dfs.append(melted)
     elif isinstance(shap_values, np.ndarray):
         if len(shap_values.shape) == 3:
             n_classes = shap_values.shape[2]
-            
+
             for class_idx in range(n_classes):
                 class_slice = shap_values[:, :, class_idx]
-                
+
                 temp_df = pd.DataFrame(class_slice, columns=feature_names)
-                temp_df['sample_index'] = temp_df.index
-                temp_df['class'] = class_idx
-                
+                temp_df["sample_index"] = temp_df.index
+                temp_df["class"] = class_idx
+
                 melted = temp_df.melt(
-                    id_vars=['sample_index', 'class'], 
-                    var_name='feature', 
-                    value_name='value'
+                    id_vars=["sample_index", "class"],
+                    var_name="feature",
+                    value_name="value",
                 )
                 local_dfs.append(melted)
         else:
             temp_df = pd.DataFrame(shap_values, columns=feature_names)
-            temp_df['sample_index'] = temp_df.index
-            temp_df['class'] = 1 # Default for binary/regression
-            
+            temp_df["sample_index"] = temp_df.index
+            temp_df["class"] = 1
+
             melted = temp_df.melt(
-                id_vars=['sample_index', 'class'], 
-                var_name='feature', 
-                value_name='value'
+                id_vars=["sample_index", "class"],
+                var_name="feature",
+                value_name="value",
             )
             local_dfs.append(melted)
 
@@ -158,8 +154,20 @@ for run_dir in outputs_dir.iterdir():
     model_df["ds_classes"] = parts[1]
     model_df["preprocessing"] = cfg.preprocessing.name
 
-    df_results.append(model_df[["model", "ds_size", "ds_classes", "preprocessing", 
-                            "sample_index", "feature", "class", "value"]])
+    df_results.append(
+        model_df[
+            [
+                "model",
+                "ds_size",
+                "ds_classes",
+                "preprocessing",
+                "sample_index",
+                "feature",
+                "class",
+                "value",
+            ]
+        ]
+    )
 
 final_csv = pd.concat(df_results, ignore_index=True)
 final_csv.to_csv("experiments/shapleys.csv", index=False)
