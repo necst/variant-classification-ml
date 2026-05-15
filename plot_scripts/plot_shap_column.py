@@ -56,13 +56,13 @@ def plot_relative_importance_variance_column(
     # 2. Plot Vertical Boxplot (Swapped x and y from original)
     sns.boxplot(
         data=plot_data,
-        x="feature",  # Features on X-axis now
-        y="relative_rank",  # Rank on Y-axis now
+        x="feature",  
+        y="relative_rank",  
         order=current_order,
         palette="viridis_r",
         showfliers=False,
-        linewidth=1.0,  # Slightly thinner lines for smaller plot
-        width=0.6,  # Adjust box width for aesthetics
+        linewidth=1.0,  
+        width=0.6,  
     )
 
     sns.stripplot(
@@ -70,7 +70,7 @@ def plot_relative_importance_variance_column(
         x="feature",
         y="relative_rank",
         order=current_order,
-        size=2.5,  # Smaller dots for smaller plot
+        size=2.5,  
         color=".3",
         alpha=0.6,
     )
